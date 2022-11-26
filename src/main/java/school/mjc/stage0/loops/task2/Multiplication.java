@@ -8,6 +8,7 @@ public class Multiplication {
             while (count <= multiplyByAndToInclusive) {
                 mult *= count;
                 count++;
+                System.out.println(mult);
 
             }
         }
@@ -15,11 +16,11 @@ public class Multiplication {
             while (count >= multiplyByAndToInclusive) {
                 mult *= count;
                 count--;
-
+                System.out.println(mult);
             }
 
         }
-        System.out.println(mult);
+
     }
 
     public static void main(String[] args) {
