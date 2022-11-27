@@ -5,9 +5,9 @@ public class FactorialNumbers {
         int fact = 1;
         int count = 1;
         while (count <= printToInclusive) {
-            fact *= count;
+            fact *= count++;
             System.out.println(fact);
-            count++;
+
 
         }
 
@@ -16,6 +16,6 @@ public class FactorialNumbers {
 
     public static void main(String[] args) {
         FactorialNumbers fn = new FactorialNumbers();
-        fn.printFactorialRow(3);
+        fn.printFactorialRow(5);
     }
 }
